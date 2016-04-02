@@ -1,0 +1,1 @@
+inf.env <- new.env()

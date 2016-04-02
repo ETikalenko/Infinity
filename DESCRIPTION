@@ -1,0 +1,11 @@
+Package: Infinity
+Type: Package
+Title: Package for getting call tracking reports from Infinity API
+Version: 0.1.0
+Author: Elena Tikalenko
+Maintainer: <etikalenko@gmail.com>
+Depends: RCurl, jsonlite
+Description: Package for getting call tracking reports from Infinity API
+License: No
+LazyData: TRUE
+RoxygenNote: 5.0.1
