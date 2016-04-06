@@ -1,12 +1,12 @@
 #' Get list of igrps
 #'
 #'@export
-#'@param username Username to access data
-#'@param password Password to access data
+#'@param username Username to access data, string
+#'@param password Password to access data, string
 #'
 #'@return Data frame which contains all installation groups (igrp), available for given user
 #'@examples \dontrun{
-#'df <- getIGRP(username, password)
+#'df <- getIGRP("username", "password")
 #'}
 #'
 #'@importFrom RCurl getURL

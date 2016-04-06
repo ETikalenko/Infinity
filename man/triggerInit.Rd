@@ -67,7 +67,7 @@ Function collects all request parameters in one list for passing to function \co
 params <- triggerInit(igrp = 840,
                      trigger = "calls",
                      limit = 50,
-                     sort = "triggerDatetime-desc"
+                     sort = "triggerDatetime-desc",
                      display = c("triggerDatetime",
                                  "srcPhoneNumber",
                                  "callState",

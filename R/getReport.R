@@ -7,8 +7,8 @@
 #' This maximum number is typically 10,000 and if you specify a higher limit value the API will return an error.
 #' For getting of all records parameter pagination = TRUE.
 #' If the number of rows in result data frame will be less than 10,000 than pagination doesn't used.
-#' @param username  Username
-#' @param password  Password
+#' @param username  Username, string
+#' @param password  Password, string
 #'
 #' @examples
 #' \dontrun{
@@ -27,7 +27,7 @@
 #'  url <- buildUrl(params)
 #'
 #'# Getting report from Infinity API to data frame
-#'  df <- getReport(url, username, password, pagination = TRUE)
+#'  df <- getReport(url, "username", "password", pagination = TRUE)
 #'}
 #'
 #'@importFrom RCurl getURL

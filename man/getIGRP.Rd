@@ -7,9 +7,9 @@
 getIGRP(username, password)
 }
 \arguments{
-\item{username}{Username to access data}
+\item{username}{Username to access data, string}
 
-\item{password}{Password to access data}
+\item{password}{Password to access data, string}
 }
 \value{
 Data frame which contains all installation groups (igrp), available for given user
@@ -19,7 +19,7 @@ Get list of igrps
 }
 \examples{
 \dontrun{
-df <- getIGRP(username, password)
+df <- getIGRP("username", "password")
 }
 
 }
