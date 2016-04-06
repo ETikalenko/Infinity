@@ -1,7 +1,7 @@
 library(Infinity)
 
-username = "princely.bibi@coastdigital.co.uk"
-password = "C04stD1g1t4l"
+username = "XXXXXX"
+password = "XXXXXX"
 
 # using startDate and endDate fields to filter records
 # sort by triggerDatetime in descending order
