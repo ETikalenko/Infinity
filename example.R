@@ -1,7 +1,7 @@
 library(Infinity)
 
 username = "XXXXXX"
-password = "XXXXXX"
+password = "XXXXXXX"
 
 # using startDate and endDate fields to filter records
 # sort by triggerDatetime in descending order
