@@ -1,0 +1,9 @@
+{
+	"name": "GCP-connection-test",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f60ed2a2-32dc-4b2a-ab9d-c56e3823d90e",
+		"tenantId": "897892d1-df3c-4a93-8c89-bb03299e4502"
+	}
+}
